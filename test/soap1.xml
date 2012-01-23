@@ -1,0 +1,9 @@
+<settings>  
+    <timeout>5000</timeout>  
+    <email>example@mail.com</email>  
+    <hosts>  
+        <host url="http://computer1.domain.com">COMPUTER1</host>  
+        <host url="http://computer2.domain.com">COMPUTER2</host>  
+        <host url="http://computer3.domain.com">COMPUTER3</host>  
+    </hosts>  
+</settings>  

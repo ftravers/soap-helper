@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Body>
+    <SOAP-ENV:Fault>
+      <faultcode>SOAP-ENV:Server</faultcode>
+      <faultstring>Method 'SetFieldValue' of business component 'Service Request' (integration component 'Service Request') returned the following error:"The value entered in field Priority of buscomp Service Request does not match any value in the bounded pick list PickList SR Priority.(SBL-DAT-00225)"(SBL-EAI-04376)</faultstring>
+      <detail>
+        <siebelf:siebdetail xmlns:siebelf="http://www.siebel.com/ws/fault">
+          <siebelf:logfilename>OnDemandServicesObjMgr_enu_71947.log</siebelf:logfilename>
+          <siebelf:errorstack>
+            <siebelf:error>
+              <siebelf:errorcode>(SBL-DAT-00225)</siebelf:errorcode>
+              <siebelf:errorsymbol/>
+              <siebelf:errormsg>Method 'SetFieldValue' of business component 'Service Request' (integration component 'Service Request') returned the following error:"The value entered in field Priority of buscomp Service Request does not match any value in the bounded pick list PickList SR Priority.(SBL-DAT-00225)"(SBL-EAI-04376)</siebelf:errormsg>
+            </siebelf:error>
+          </siebelf:errorstack>
+        </siebelf:siebdetail>
+      </detail>
+    </SOAP-ENV:Fault>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

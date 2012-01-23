@@ -1,0 +1,9 @@
+(ns com.oracle.git.ngsp.SoapHelper
+  (:gen-class
+   :name com.oracle.git.ngsp.SoapHelper
+   :methods [#^{:static true} [greet [] String]]))
+(defn greet[] (println "Hello Fenton!"))
+(defn -greet
+  "A 'static' wrapper around 'greet' function."
+  []
+  (greet))
